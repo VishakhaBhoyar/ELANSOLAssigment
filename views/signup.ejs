@@ -1,0 +1,23 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <div>
+        <h2>Register yourself</h2>
+    <h3>SignUp</h3>
+    <form method="POST" action="/views" >
+        <input name="user[Name]" placeholder="Enter Name" type="text" class="details">
+        <br><br>
+        <input name="user[Date of Birth]" placeholder="Enter date-of-birth" type="date" class="details">
+        <br><br>
+        <input name="user[Location]" placeholder="Enter location" type="text" class="details">
+        <br><br>
+        <input name="user[Email]" placeholder="Enter Email" type="email" class="details">
+        <br><br>
+        <input name="user[Password]" placeholder="Create strong password" type="password" class="details">
+        <br><br>
+
+        <button class="btn" >SUBMIT</button>
+
+    </form>
+    </div>
+    
+</body>
